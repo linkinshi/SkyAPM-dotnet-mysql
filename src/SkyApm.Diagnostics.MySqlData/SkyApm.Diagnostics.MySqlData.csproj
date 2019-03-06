@@ -14,7 +14,6 @@
     <Authors>linkinshi@gmail.com</Authors>
     <Product>SkyAPM.Diagnostics.MySqlData</Product>
     <Description>SkyAPM.Diagnostics for MySqlData</Description>
-    <PackageLicenseUrl>https://github.com/linkinshi/SkyAPM-dotnet-mysql/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/linkinshi/SkyAPM-dotnet-mysql</PackageProjectUrl>
     <RepositoryUrl>https://github.com/linkinshi/SkyAPM-dotnet-mysql</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
