@@ -36,6 +36,8 @@ namespace SkyApm.Diagnostics.MySqlData
         public MySqlDataDiagnosticProcessor(ITracingContext tracingContext,
             IExitSegmentContextAccessor contextAccessor)
         {
+            _tracingContext = tracingContext;
+            _contextAccessor = contextAccessor;
             MySqlTrace.Listeners.Clear();
             MySqlTrace.Listeners.Add(this);
             MySqlTrace.Switch.Level = SourceLevels.Information;
